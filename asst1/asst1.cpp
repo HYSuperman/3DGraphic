@@ -62,7 +62,7 @@ static const bool g_Gl2Compatible = true;
 static int g_width             = 512;       // screen width
 static int g_height            = 512;       // screen height
 static bool g_leftClicked      = false;     // is the left mouse button down?
-static bool g_rightClicked     = true;     // is the right mouse button down?
+static bool g_rightClicked     = false;     // is the right mouse button down?
 static float g_objScale        = 1.0;       // scale factor for object
 static int g_leftClickX, g_leftClickY;      // coordinates for mouse left click event
 static int g_rightClickX, g_rightClickY;    // coordinates for mouse right click event
@@ -240,10 +240,7 @@ static void display(void) {
   // printf("height: %d\n", g_height);
 
   if(g_width != g_height)
-    //float ratio = 
     safe_glUniform1f(curSS.h_uVertexScale, (float)g_height/(float)g_width);
-   //else if(g_width < g_height)
-     //safe_glUniform1f(curSS.h_uVertexScale, g_height/g_width);
   // =======================================
   // TODO: 
   // 1. the aspect ratio should be preserved
@@ -252,7 +249,7 @@ static void display(void) {
 
   clock_t t = clock();
   g_time = (float) t;
-  g_time = g_time/17000.0;
+  g_time = g_time/1500.0;
    // ========================================
   // TODO: 
   // g_time is passed into the fragment shader
