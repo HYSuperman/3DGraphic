@@ -1,5 +1,18 @@
-Student Name:
-Email:
-NetID:
+Student Name:Yang Hu
+Email:yh1864@nyu.edu	
+NetID:yh1864
 
 Which files did you change?
+
+1> asst1.cpp
+	--In the display() function, modified uniform variable uVertexScale to keep		  the original ratio and not crop the image.
+    --In the display() function, modified uniform variable uTime to slow the
+	  interpolate speed.
+
+2> asst1-gl2.vshader
+	--Change gl_Position to according to the uVertexScale to keep aspect ratio.
+
+3> ass1-gl2.fshader
+    --Add a function of uTime (sin()function) to interpolate two images.
+
+
