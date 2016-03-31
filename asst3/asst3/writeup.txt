@@ -1,0 +1,7 @@
+Student Name: Yang Hu
+Email: yh1864@nyu.edu
+NetID: yh1864
+
+Which files did you change?
+1.rigtform.h: Added some constructors and basic operation functions
+2.asst3.h: Changed drawstuff(), motion(), mouse(), reshape()

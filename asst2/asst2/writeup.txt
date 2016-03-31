@@ -1,0 +1,8 @@
+Student Name: Yang Hu
+Email: yh1864@nyu.edu
+NetID: yh1864
+
+Which files did you change?
+1. matrix4.h: Modified two functions and added two functions at the end of file
+2. asst2.cpp: Modified several functions in asst2.cpp to have objects switching, 
+              view switching. Details are in the comments
