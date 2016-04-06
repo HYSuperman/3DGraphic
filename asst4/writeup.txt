@@ -1,0 +1,8 @@
+Student Name: Yang Hu
+Email: yh1864@nyu.edu
+NetID: yh1864
+
+Which files did you change?
+1.asst4.cpp
+2.scenegraph.cpp
+3.picker.cpp

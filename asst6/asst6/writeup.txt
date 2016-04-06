@@ -1,0 +1,9 @@
+Student Name: Yang Hu
+Email: yh1864@nyu.edu
+NetID: yh1864
+
+Which files did you change?
+1.asst6.cpp:Change the interpolation method, compute the control rigtforms and pass them into Catmull interpolation.
+
+2.Cvec.h, Quat.h, rigtform.h: Catmull-Rom Interpolation
+3.Did the code migration according to snippet.h

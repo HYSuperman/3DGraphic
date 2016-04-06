@@ -1,0 +1,11 @@
+Student Name: Yang Hu
+Email: yh1864@nyu.edu
+NetID: yh1864
+
+Which files did you change?
+1.asst5.cpp: Mainly focused on the changed in 'keyboard' callback.
+			Added two key data structures to maintain the frames.
+2.cvec.h: lerp(...)
+3.quat.h: slerp(...)
+4.rigtform.h lerp(...)
+5.Makefile: some trivial changes
